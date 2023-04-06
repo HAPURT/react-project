@@ -1,0 +1,82 @@
+.main{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    max-width: 500px;
+    
+    background-color: white;
+
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin-top: 0em;
+    font-size: 3em;
+    font-weight: 700;
+    color: rgb(24, 22, 107);
+    text-align: center;
+}
+.market{
+    margin-top: 0.5em;
+    width: 95%;
+    height: 4em;
+    border-radius: 20px;
+}
+.sub{
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+}
+.sub2{
+    margin-top: 0.5em;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(18, 52, 104);
+    text-align: center;
+}
+.rel{
+    margin-top: 0.3em;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+}
+/*탭바 css*/
+.bloc-tabs {
+    display: flex;
+}
+.tabs {
+    font-size: 15px;
+    font-weight: 800;
+    padding: 15px;
+    width: 100%;
+    background: rgba(60, 20, 170, 0.075);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+}
+.tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+.active-tabs  {
+    border-bottom: 1px solid transparent;
+}
+.button {
+    border: none;
+}
+.content {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.active-content {
+    display: block;
+}
+
+
+
